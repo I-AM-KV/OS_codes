@@ -15,9 +15,9 @@ void FCFS(int arr[], int head)
     
     cout<<"Sequence is:"<<endl;
     for(int i=0;i<size;i++){
-        cout<<arr[i]<<endl;
+        cout<<arr[i]<<" ";
     }
-    cout<<"Total number of operations:"<<count<<endl;
+    cout<<"\n Total head moovement :"<<count<<endl;
 }
 int main(){
     int arr[size] = {98,183,41,122,14,124,65,67};
